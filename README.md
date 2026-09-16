@@ -1061,6 +1061,8 @@ https://github.com/mohamedmalik399/PocketNOC
 
 ## 42. Author
 
+Mohamed Malik
+
 PocketNOC is a personal networking, monitoring, and automation learning project.
 
 ---
