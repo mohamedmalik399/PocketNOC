@@ -1,5 +1,8 @@
 import subprocess
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 SNMP_TARGET = os.getenv("POCKETNOC_SNMP_TARGET", "127.0.0.1:1161")
 SNMP_COMMUNITY = os.getenv("POCKETNOC_SNMP_COMMUNITY")

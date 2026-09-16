@@ -1,3 +1,8 @@
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
 from database import (
     get_syslog,
     get_events,
@@ -15,7 +20,6 @@ from snmp_monitor import (
     get_system_location,
     get_system_contact
 )
-import os
 
 app = Flask(__name__)
 
