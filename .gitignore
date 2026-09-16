@@ -1,0 +1,8 @@
+pocketnoc.db
+logs/
+__pycache__/
+*.pyc
+.env
+snmpd.pid
+snmpd.conf
+snmpd.conf.save
